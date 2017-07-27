@@ -1,0 +1,51 @@
+.cool-gradient{
+    background:linear-gradient(to right, lightblue, blue, darkblue);
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+.cool-gradient:hover {
+    border-radius:50%;
+    background: radial-gradient(farthest-corner at 45px 45px, blue, turquoise, white);
+    width: 300px;
+    height: 300px;
+    font-style: italic;
+}
+
+.awesome-gradient{
+    background: linear-gradient(purple, pink);
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+.awesome-gradient:hover{
+    border-radius:50%;
+    background: linear-gradient(to left top, purple,red);
+    width: 300px;
+    height: 300px;
+    font-style: italic;
+}
+
+.gnarly-gradient{
+    background: radial-gradient(red, orangered, orange, yellow);
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+.gnarly-gradient:hover{
+    border-radius:50%;
+    background: linear-gradient(30deg, yellow, yellowgreen, green);
+    width: 300px;
+    height: 300px;
+    font-style: italic;
+}
+
+
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
